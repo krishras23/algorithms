@@ -11,6 +11,8 @@ public class bfsGraph {
 
   int[][] directions = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
 
+  int[][] diagonals = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}, {-1, -1}, {1, -1}, {-1, 1}, {1, 1}};
+
   void bfsGrid(int sr, int sc) {
     Queue<int[]> q = new LinkedList<>();
     q.add(new int[]{sr, sc});
