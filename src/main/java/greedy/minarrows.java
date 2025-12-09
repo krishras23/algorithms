@@ -3,7 +3,7 @@ package greedy;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MinimumNumberArrows {
+public class minarrows {
 
   // Greedy intuition: shoot as late as possible without missing the first balloon
   public int findMinArrowShots(int[][] points) {
