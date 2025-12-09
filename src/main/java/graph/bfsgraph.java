@@ -3,7 +3,7 @@ package graph;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class bfsGraph {
+public class bfsgraph {
   int[][] grid;
   int rows = grid.length;
   int cols = grid[0].length;

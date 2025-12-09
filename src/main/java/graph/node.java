@@ -1,10 +1,10 @@
 package graph;
 
-public class TreeNode<T>{
+public class node<T>{
   public T val;
-  public TreeNode<T> left;
-  public TreeNode<T> right;
-  public TreeNode(T val) {
+  public node<T> left;
+  public node<T> right;
+  public node(T val) {
     this.val = val;
     this.left = null;
     this.right = null;
